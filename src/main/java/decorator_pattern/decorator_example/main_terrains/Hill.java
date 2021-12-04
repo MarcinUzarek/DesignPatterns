@@ -1,4 +1,4 @@
-package decorator_pattern.main_terrains;
+package decorator_pattern.decorator_example.main_terrains;
 
 public class Hill extends Terrain{
 

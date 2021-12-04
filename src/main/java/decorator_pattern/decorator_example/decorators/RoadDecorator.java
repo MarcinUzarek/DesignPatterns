@@ -1,6 +1,6 @@
-package decorator_pattern.decorators;
+package decorator_pattern.decorator_example.decorators;
 
-import decorator_pattern.main_terrains.Terrain;
+import decorator_pattern.decorator_example.main_terrains.Terrain;
 
 public class RoadDecorator extends TerrainDecorator{
 

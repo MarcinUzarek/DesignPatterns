@@ -1,11 +1,11 @@
-package decorator_pattern;
+package decorator_pattern.decorator_example;
 
-import decorator_pattern.decorators.ForrestDecorator;
-import decorator_pattern.decorators.RoadDecorator;
-import decorator_pattern.decorators.SwampDecorator;
-import decorator_pattern.main_terrains.Hill;
-import decorator_pattern.main_terrains.Plain;
-import decorator_pattern.main_terrains.Terrain;
+import decorator_pattern.decorator_example.decorators.ForrestDecorator;
+import decorator_pattern.decorator_example.decorators.RoadDecorator;
+import decorator_pattern.decorator_example.decorators.SwampDecorator;
+import decorator_pattern.decorator_example.main_terrains.Hill;
+import decorator_pattern.decorator_example.main_terrains.Plain;
+import decorator_pattern.decorator_example.main_terrains.Terrain;
 
 public class Main {
 
