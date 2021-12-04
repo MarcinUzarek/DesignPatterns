@@ -1,7 +1,7 @@
-package chain_of_responsibility_pattern;
+package chain_of_responsibility_pattern.chain_of_responsibility_example;
 
-import chain_of_responsibility_pattern.message.Message;
-import chain_of_responsibility_pattern.officer.*;
+import chain_of_responsibility_pattern.chain_of_responsibility_example.message.Message;
+import chain_of_responsibility_pattern.chain_of_responsibility_example.officer.*;
 
 public class Main {
     public static void main(String[] args) {

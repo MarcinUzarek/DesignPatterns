@@ -1,6 +1,6 @@
-package chain_of_responsibility_pattern.message;
+package chain_of_responsibility_pattern.chain_of_responsibility_example.message;
 
-import chain_of_responsibility_pattern.officer.OfficerRank;
+import chain_of_responsibility_pattern.chain_of_responsibility_example.officer.OfficerRank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

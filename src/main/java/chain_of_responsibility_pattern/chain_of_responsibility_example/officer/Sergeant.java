@@ -1,6 +1,6 @@
-package chain_of_responsibility_pattern.officer;
+package chain_of_responsibility_pattern.chain_of_responsibility_example.officer;
 
-import chain_of_responsibility_pattern.message.Message;
+import chain_of_responsibility_pattern.chain_of_responsibility_example.message.Message;
 
 public class Sergeant extends Officer{
 
