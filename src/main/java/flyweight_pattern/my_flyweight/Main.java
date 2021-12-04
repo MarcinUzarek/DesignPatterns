@@ -1,25 +1,23 @@
 package flyweight_pattern.my_flyweight;
 
-import flyweight_pattern.my_flyweight.abstract_pieces.BlackPiece;
 import flyweight_pattern.my_flyweight.abstract_pieces.ChessPiece;
-import flyweight_pattern.my_flyweight.abstract_pieces.WhitePiece;
-import flyweight_pattern.my_flyweight.pieces.BlackKing;
-import flyweight_pattern.my_flyweight.pieces.BlackQueen;
-import flyweight_pattern.my_flyweight.pieces.WhiteKing;
-import flyweight_pattern.my_flyweight.pieces.WhiteQueen;
+import flyweight_pattern.my_flyweight.pieces.King;
+import flyweight_pattern.my_flyweight.pieces.Queen;
+import flyweight_pattern.my_flyweight.repositories.Color;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        ChessPiece blackQueen = new BlackQueen();
-        WhitePiece whiteKing = new WhiteKing();
-        WhitePiece whiteQueen = new WhiteQueen();
-        BlackPiece blackKing = new BlackKing();
+        ChessPiece blackQueen = new Queen(Color.BLACK);
+        ChessPiece whiteQueen = new Queen(Color.WHITE);
+        ChessPiece whiteKing = new King(Color.WHITE);
+        ChessPiece blackKing = new King(Color.BLACK);
 
         System.out.println(blackQueen);
-        System.out.println(blackKing);
-        System.out.println(whiteKing);
         System.out.println(whiteQueen);
+        System.out.println(whiteKing);
+        System.out.println(blackKing);
+
     }
 }

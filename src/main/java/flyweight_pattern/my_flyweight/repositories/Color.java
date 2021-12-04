@@ -1,11 +1,6 @@
 package flyweight_pattern.my_flyweight.repositories;
 
-import lombok.AllArgsConstructor;
-import lombok.ToString;
+public enum Color {
 
-@AllArgsConstructor
-@ToString
-public class Color {
-
-   private int r,g,b;
+    WHITE, BLACK;
 }
