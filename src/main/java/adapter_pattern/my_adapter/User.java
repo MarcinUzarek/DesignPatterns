@@ -1,15 +1,18 @@
 package adapter_pattern.my_adapter;
 
+import lombok.Getter;
+
 import java.time.LocalDate;
 
+@Getter
 public class User {
 
-    private String firstName;
-    private String lastName;
-    private LocalDate dateOfBirth;
+    private final String firstName;
+    private final String lastName;
+    private final LocalDate dateOfBirth;
 
 
-    private String PESEL;
+    private final String PESEL;
 
 
     public User(String firstName, String lastName, String PESEL) {
@@ -19,7 +22,4 @@ public class User {
         this.dateOfBirth = LocalDate.now();
     }
 
-    public String getPESEL() {
-        return PESEL;
-    }
 }
